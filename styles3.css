@@ -1,0 +1,55 @@
+html{
+    background-color: whitesmoke;
+  }
+  
+  body{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      height: 100vh;
+  }
+
+h1{
+    margin: 50px 10px;
+}
+
+  body>div{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+
+      width: 100vw;
+  }
+
+  body>div>div{
+    margin: 10px;
+    width: 175px;
+    height: 280px;
+    border: white solid 5px;    
+  }
+
+  body>div>div:nth-child(1){
+    background-color: tomato;
+  }
+
+  body>div>div:nth-child(2){
+    background-color: teal;
+  }
+  
+  body>div>div:nth-child(3){
+    background-color: burlywood;
+  }
+  
+  body>div>div:nth-child(4){
+    background-color: thistle;
+  }
+
+body>div>div>div{
+    background-color: white;
+    width:175px;
+    height:75px;
+    position:relative;
+    top:10px;
+}
